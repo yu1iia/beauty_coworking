@@ -2,12 +2,19 @@
 header {
   height: 100px;
   background-color: $bg-color;
-  padding-top: 30px;
 }
 .header {
+  &__wrapper {
+    position: fixed;
+    z-index: 1100;
+    width: 100%;
+  }
   &__container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   &__description {
     color: rgba(255, 255, 255, 1);
