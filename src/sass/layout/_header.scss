@@ -1,11 +1,11 @@
 // Header
 header {
-  height: 100px;
-  background-color: $bg-color;
+  padding: 0;
+  // background-color: $bg-color;
 }
 .header {
   &__wrapper {
-    position: fixed;
+    position: absolute;
     z-index: 1100;
     width: 100%;
   }
@@ -13,8 +13,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    // padding-bottom: 30px;
   }
   &__description {
     color: rgba(255, 255, 255, 1);
@@ -57,7 +57,7 @@ header {
       font-family: Arial;
     }
     &-image {
-      padding-top: 15px;
+      margin-top: 10px;
     }
   }
 }
