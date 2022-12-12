@@ -390,7 +390,7 @@ header {
 .hero {
   height: 1100px;
   padding-left: 166px;
-  background: url("../images/hero/artists.png") 840px 155px no-repeat, url("../images/hero/master.png") 740px 0 no-repeat, url("../images/hero/room.png") 300px -50px no-repeat, url("../images/hero/dust.png") 740px 0 no-repeat, url("../images/hero/oval.png") 340px -50px no-repeat;
+  background: url("../images/hero/artists.png") 840px 155px no-repeat, url("../images/hero/girl.png") 600px -45px no-repeat, url("../images/hero/room.png") 300px -50px no-repeat, url("../images/hero/dust.png") 740px 0 no-repeat, url("../images/hero/oval.png") 340px -50px no-repeat;
 }
 
 .hero__title {
@@ -470,42 +470,26 @@ header {
   margin-left: 19px;
 }
 
-.hero__services-icon {
-  display: inline-block;
-  width: 34px;
-  height: 33px;
-  margin: 0 auto;
-  text-align: center;
+.hero__registration-phone {
+  background: url("../images/hero/phone.png") no-repeat 20px;
+  background-color: #ffffff;
+  padding-left: 80px;
+  border: none;
 }
 
-.hero__registration-phone {
-  background-color: aqua;
-  background-image: url("../images/hero/phone.png");
+.hero__services-image-container {
+  display: flex;
 }
 
 .hero__services-list {
   display: flex;
 }
 
-.hero__services-item:not(:last-child) {
-  margin-right: 200px;
-}
-
 .hero__services-item:nth-child(even) {
   padding-top: 100px;
 }
 
-.hero__services-index {
-  display: block;
-  width: 85px;
-  height: 85px;
-  background-image: url("../images/hero/star.png");
-  background-repeat: no-repeat;
-}
-
-.hero__services-index-number {
-  font-size: 80px;
-  margin-left: 50px;
-  color: #696975;
+.hero__services-oval {
+  margin-left: -30px;
 }
 /*# sourceMappingURL=main.css.map */
