@@ -1,17 +1,12 @@
 .hero {
   height: 1100px;
-  padding-left: 250px;
+  padding-left: 350px;
   margin-bottom: 170px;
+  background: url('../images/hero/artists.png') 1000px 200px no-repeat,
+    url('../images/hero/bg.png') no-repeat;
   // background: $bg-color;
-  background: url('../images/hero/artists.png') 840px 155px no-repeat,
-    url('../images/hero/girl.png') 600px -45px no-repeat,
-    url('../images/hero/room.png') 300px -50px no-repeat,
-    url('../images/hero/dust.png') 740px 0 no-repeat,
-    url('../images/hero/oval.png') 340px -50px no-repeat,
-    url('../images/hero/bg-light.png') -60px -50px no-repeat;
   &__title {
-    padding-top: 200px;
-
+    padding-top: 250px;
     padding-bottom: 26px;
     color: $text-color;
     font-family: $font-family;
@@ -32,13 +27,33 @@
     &-accent {
       color: $accent-color;
     }
+    &-vibe {
+      text-transform: uppercase;
+      font-style: italic;
+    }
   }
   &__scroll-down {
     background: url('../images/hero/scroll_down.png') no-repeat;
     width: 27px;
     height: 190px;
-    margin-left: -140px;
+    margin-left: -170px;
     margin-top: -130px;
+  }
+  &__navigation {
+    position: absolute;
+    &-list {
+      position: relative;
+      top: -520px;
+      left: 1370px;
+    }
+    &-item {
+      display: block;
+      width: 4px;
+      height: 4px;
+      background-color: rgba(177, 177, 179, 1);
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
   }
   &__registration-phone {
     // box-sizing: border-box;
@@ -104,4 +119,14 @@
       margin-right: 170px;
     }
   }
+}
+.active-page::after {
+  content: '';
+  display: block;
+  text-align: center;
+  width: 21px;
+  height: 1px;
+  margin-top: 11px;
+  margin-left: 13px;
+  background-color: $title-accent;
 }

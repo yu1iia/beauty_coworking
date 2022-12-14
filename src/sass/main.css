@@ -1,3 +1,8 @@
+.history__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -280,15 +285,13 @@ body {
 .container {
   padding-left: 50px;
   padding-right: 50px;
-  width: 1600px;
+  width: 1950px;
   margin: 0 auto;
 }
 
 @media screen and (min-width: 1950px) {
   .container .container {
-    width: 1600px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 1950px;
   }
 }
 
@@ -329,7 +332,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
-  padding-left: 119px;
+  padding-left: 220px;
+  padding-right: 270px;
 }
 
 .header__description {
@@ -340,7 +344,6 @@ header {
   font-family: "Tenor Sans", sans-serif;
   font-size: 12px;
   letter-spacing: 0.4px;
-  margin-right: 112px;
 }
 
 .header__divider {
@@ -353,6 +356,7 @@ header {
 
 .header__navigation-list {
   display: flex;
+  margin-left: -200px;
 }
 
 .header__navigation-link {
@@ -366,7 +370,6 @@ header {
 .header__callback {
   display: flex;
   align-items: center;
-  margin-left: 280px;
 }
 
 .header__callback-number {
@@ -390,13 +393,13 @@ header {
 
 .hero {
   height: 1100px;
-  padding-left: 250px;
+  padding-left: 350px;
   margin-bottom: 170px;
-  background: url("../images/hero/artists.png") 840px 155px no-repeat, url("../images/hero/girl.png") 600px -45px no-repeat, url("../images/hero/room.png") 300px -50px no-repeat, url("../images/hero/dust.png") 740px 0 no-repeat, url("../images/hero/oval.png") 340px -50px no-repeat, url("../images/hero/bg-light.png") -60px -50px no-repeat;
+  background: url("../images/hero/artists.png") 1000px 200px no-repeat, url("../images/hero/bg.png") no-repeat;
 }
 
 .hero__title {
-  padding-top: 200px;
+  padding-top: 250px;
   padding-bottom: 26px;
   color: white;
   font-family: "Tenor Sans", sans-serif;
@@ -422,12 +425,36 @@ header {
   color: #eab1b4;
 }
 
+.hero__description-vibe {
+  text-transform: uppercase;
+  font-style: italic;
+}
+
 .hero__scroll-down {
   background: url("../images/hero/scroll_down.png") no-repeat;
   width: 27px;
   height: 190px;
-  margin-left: -140px;
+  margin-left: -170px;
   margin-top: -130px;
+}
+
+.hero__navigation {
+  position: absolute;
+}
+
+.hero__navigation-list {
+  position: relative;
+  top: -520px;
+  left: 1370px;
+}
+
+.hero__navigation-item {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: #b1b1b3;
+  border-radius: 50%;
+  margin-bottom: 15px;
 }
 
 .hero__registration-phone {
@@ -498,5 +525,40 @@ header {
 
 .hero__services-item:not(:last-child) {
   margin-right: 170px;
+}
+
+.active-page::after {
+  content: '';
+  display: block;
+  text-align: center;
+  width: 21px;
+  height: 1px;
+  margin-top: 11px;
+  margin-left: 13px;
+  background-color: #e5b093;
+}
+
+.history__title {
+  padding-bottom: 85px;
+  color: white;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 50px;
+  line-height: 59px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.history__title-accent {
+  color: #ce946b;
+}
+
+.history__wrapper {
+  background: url("../images/history/button-play.png") 1500px 400px no-repeat, url("../images/history/circles.png") 880px -220px no-repeat, url("../images/history/circles-1.png") 1100px 0 no-repeat, url("../images/history/bg-2.png") 800px 0 no-repeat, url("../images/history/bg-1.png") 800px 0 no-repeat;
+}
+
+.history__description {
+  width: 380px;
+  margin-left: 136px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,27 @@
+.history {
+  &__title {
+    padding-bottom: 85px;
+    color: $text-color;
+    font-family: $font-family;
+    font-size: 50px;
+    line-height: 59px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    &-accent {
+      color: rgba(206, 148, 107, 1);
+    }
+  }
+  &__wrapper {
+    background: url('../images/history/button-play.png') 1500px 400px no-repeat,
+      url('../images/history/circles.png') 880px -220px no-repeat,
+      url('../images/history/circles-1.png') 1100px 0 no-repeat,
+      url('../images/history/bg-2.png') 800px 0 no-repeat,
+      url('../images/history/bg-1.png') 800px 0 no-repeat;
+    @extend %flex-j;
+  }
+  &__description {
+    width: 380px;
+    margin-left: 136px;
+  }
+}

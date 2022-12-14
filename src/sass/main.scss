@@ -1,5 +1,5 @@
 // @import './utils/mixins';
-// @import './utils/placeholders';
+@import './utils/placeholders';
 @import './utils/variables';
 
 @import './base/normalize';
@@ -7,3 +7,4 @@
 
 @import './layout/header';
 @import './layout/hero';
+@import './layout/history';

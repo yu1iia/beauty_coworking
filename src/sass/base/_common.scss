@@ -11,14 +11,12 @@ body {
 .container {
   padding-left: 50px;
   padding-right: 50px;
-  width: 1600px;
+  width: 1950px;
   margin: 0 auto;
 
   @media screen and (min-width: $bp-desktop) {
     .container {
-      width: 1600px;
-      padding-left: 15px;
-      padding-right: 15px;
+      width: 1950px;
     }
   }
 }
