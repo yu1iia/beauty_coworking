@@ -1,4 +1,15 @@
 .history {
+  height: 1000px;
+  padding-top: 150px;
+  background-color: $bg-color;
+  border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 100px;
+  // background: url('../images/history/button-play.png') 1000px 250px no-repeat,
+  //   url('../images/history/circles.png') 550px -220px no-repeat,
+  //   url('../images/history/circles-1.png') -100% 0 no-repeat,
+  //   url('../images/history/bg-2.png') no-repeat,
+  //   url('../images/history/bg-4.png') 0 0 no-repeat;
   &__title {
     padding-bottom: 85px;
     color: $text-color;
@@ -13,15 +24,31 @@
     }
   }
   &__wrapper {
-    background: url('../images/history/button-play.png') 1500px 400px no-repeat,
-      url('../images/history/circles.png') 880px -220px no-repeat,
-      url('../images/history/circles-1.png') 1100px 0 no-repeat,
-      url('../images/history/bg-2.png') 800px 0 no-repeat,
-      url('../images/history/bg-1.png') 800px 0 no-repeat;
     @extend %flex-j;
   }
   &__description {
+    text-align: initial;
     width: 380px;
     margin-left: 136px;
+    font-size: 20px;
+    line-height: 28px;
+    color: $text-color;
+    &-text {
+      padding-top: 40px;
+    }
+    &-details {
+      display: inline-block;
+      margin-top: 25px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+    }
+    &-accent {
+      color: $accent-color;
+    }
+  }
+  &__registration-button {
+    margin-top: 45px;
   }
 }

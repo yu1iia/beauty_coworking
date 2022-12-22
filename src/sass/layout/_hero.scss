@@ -2,9 +2,9 @@
   height: 1100px;
   padding-left: 350px;
   margin-bottom: 170px;
+  background-color: $bg-color;
   background: url('../images/hero/artists.png') 1000px 200px no-repeat,
     url('../images/hero/bg.png') no-repeat;
-  // background: $bg-color;
   &__title {
     padding-top: 250px;
     padding-bottom: 26px;

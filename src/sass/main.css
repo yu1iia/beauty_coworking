@@ -395,6 +395,7 @@ header {
   height: 1100px;
   padding-left: 350px;
   margin-bottom: 170px;
+  background-color: #313140;
   background: url("../images/hero/artists.png") 1000px 200px no-repeat, url("../images/hero/bg.png") no-repeat;
 }
 
@@ -538,6 +539,15 @@ header {
   background-color: #e5b093;
 }
 
+.history {
+  height: 1000px;
+  padding-top: 150px;
+  background-color: #313140;
+  border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 100px;
+}
+
 .history__title {
   padding-bottom: 85px;
   color: white;
@@ -553,12 +563,37 @@ header {
   color: #ce946b;
 }
 
-.history__wrapper {
-  background: url("../images/history/button-play.png") 1500px 400px no-repeat, url("../images/history/circles.png") 880px -220px no-repeat, url("../images/history/circles-1.png") 1100px 0 no-repeat, url("../images/history/bg-2.png") 800px 0 no-repeat, url("../images/history/bg-1.png") 800px 0 no-repeat;
-}
-
 .history__description {
+  text-align: initial;
   width: 380px;
   margin-left: 136px;
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+}
+
+.history__description-text {
+  padding-top: 40px;
+}
+
+.history__description-details {
+  display: inline-block;
+  margin-top: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.history__description-accent {
+  color: #eab1b4;
+}
+
+.history__registration-button {
+  margin-top: 45px;
+}
+
+.description {
+  height: 1000px;
 }
 /*# sourceMappingURL=main.css.map */
